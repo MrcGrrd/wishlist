@@ -64,7 +64,7 @@ const Wishlist = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-4xl font-bold text-blue-600 mb-4">Gerard's Wishlist</h1>
 
-      <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+      {/* <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
         <h2 className="text-xl font-semibold text-gray-700 mb-4">
           {editIndex !== null ? "Edit Wishlist Item" : "Add to Wishlist"}
         </h2>
@@ -123,7 +123,7 @@ const Wishlist = () => {
         >
           {editIndex !== null ? "Save Changes" : "Add Item"}
         </button>
-      </div>
+      </div> */}
 
       <div className="mt-6 w-full max-w-5xl">
         {wishlist.length > 0 ? (
@@ -141,7 +141,7 @@ const Wishlist = () => {
                           <img
                             src={item.image1}
                             alt={`${item.name} Image 1`}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                           />
                         </div>
                       )}
@@ -150,7 +150,7 @@ const Wishlist = () => {
                           <img
                             src={item.image2}
                             alt={`${item.name} Image 2`}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                           />
                         </div>
                       )}
@@ -198,6 +198,7 @@ const Wishlist = () => {
                 <button
                   onClick={() => deleteItem(index)}
                   className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full hover:bg-red-600"
+                  disabled
                 >
                   X
                 </button>
