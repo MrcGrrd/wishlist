@@ -64,7 +64,7 @@ const Wishlist = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-4xl font-bold text-blue-600 mb-4">Gerard's Wishlist</h1>
 
-      {/* <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
+      <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-md">
         <h2 className="text-xl font-semibold text-gray-700 mb-4">
           {editIndex !== null ? "Edit Wishlist Item" : "Add to Wishlist"}
         </h2>
@@ -123,7 +123,7 @@ const Wishlist = () => {
         >
           {editIndex !== null ? "Save Changes" : "Add Item"}
         </button>
-      </div> */}
+      </div>
 
       <div className="mt-6 w-full max-w-5xl">
         {wishlist.length > 0 ? (
