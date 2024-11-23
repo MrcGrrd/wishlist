@@ -198,7 +198,6 @@ const Wishlist = () => {
                 <button
                   onClick={() => deleteItem(index)}
                   className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full hover:bg-red-600"
-                  disabled
                 >
                   X
                 </button>
