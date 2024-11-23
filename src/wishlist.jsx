@@ -28,7 +28,7 @@ const Wishlist = () => {
       Price: "₱5,300 - ₱5,800",
       link1: { name: "Light Blue", url: "https://www.adidas.com.ph/handball-spezial-shoes/BD7632.html?pr=recently_viewed&slot=7&rec=mt" }, // Replace with your link
       link2: { name: "Night Indigo", url: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fa18f47b66e4f4980ba74d48de04ecc_9366/Handball_Spezial_Shoes_Blue_IF7087_01_standard.jpg" }, // Replace with your link
-      description: "Naglagay po ako ng dalawang options ng colorway if ever na wala yung isa, pero mas preferred po yung light blue.",
+      description: "If ito po mapili will add nalang po ng 2k+ and naglagay po ako ng dalawang options ng colorway if ever wala yung isa, pero mas preferred po yung light blue.",
     },
   ];
 
